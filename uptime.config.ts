@@ -28,9 +28,10 @@ const workerConfig: WorkerConfig = {
       headers: {
         'User-Agent': 'Uptimeflare',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
-    },
+        },
+      },
 
- {
+    {
       id: 'Web',
       name: 'Social',
       method: 'GET',
@@ -45,7 +46,8 @@ const workerConfig: WorkerConfig = {
       headers: {
         'User-Agent': 'Uptimeflare',
         Authorization: 'Bearer YOUR_TOKEN_HERE', 
-    },
+        },
+      },
 
     {
       id: 'VPS',
