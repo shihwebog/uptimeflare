@@ -95,8 +95,6 @@ const workerConfig: WorkerConfig = {
     
   ],
 
-
-
 // Don't edit this line
 export { maintenances, pageConfig, workerConfig }
 
