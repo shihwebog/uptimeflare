@@ -86,7 +86,8 @@ const workerConfig: WorkerConfig = {
     },
     
   ],
-
+}
+  
 const maintenances: MaintenanceConfig[] = []
   
 // Don't edit this line
