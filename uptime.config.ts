@@ -18,17 +18,13 @@ const workerConfig: WorkerConfig = {
       name: 'Blog',
       method: 'GET',
       target: 'https://blog.stoh.cc',
-        tooltip: 'This is a tooltip for this monitor',
+      //  tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://blog.stoh.cc',
+      // statusPageLink: 'https://blog.stoh.cc',
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
       timeout: 10000,
       // [OPTIONAL] headers to be sent
-      headers: {
-        'User-Agent': 'Uptimeflare',
-        Authorization: 'Bearer YOUR_TOKEN_HERE',
-        },
       },
 
     {
@@ -36,17 +32,13 @@ const workerConfig: WorkerConfig = {
       name: 'Social',
       method: 'GET',
       target: 'https://social.stoh.cc',
-      tooltip: 'This is a tooltip for this monitor',
+     // tooltip: 'This is a tooltip for this monitor',
      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://social.stoh.cc',
+     // statusPageLink: 'https://social.stoh.cc',
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
       timeout: 10000,
       // [OPTIONAL] headers to be sent
-      headers: {
-        'User-Agent': 'Uptimeflare',
-        Authorization: 'Bearer YOUR_TOKEN_HERE', 
-        },
       },
 
     {
@@ -54,7 +46,7 @@ const workerConfig: WorkerConfig = {
       name: 'Main',
       method: 'TCP_PING',
       target: '137.175.126.187:22103',
-      tooltip: 'This is a tooltip for this monitor',
+  //    tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
       timeout: 5000,
@@ -65,7 +57,7 @@ const workerConfig: WorkerConfig = {
       name: 'Website',
       method: 'TCP_PING',
       target: '72.11.140.72:22103',
-        tooltip: 'This is a tooltip for this monitor',
+    //    tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
  // statusPageLink: 'https://example.com',
       timeout: 5000,
@@ -76,7 +68,7 @@ const workerConfig: WorkerConfig = {
       name: 'Vmess',
       method: 'TCP_PING',
       target: '131.186.32.166:22103',
-        tooltip: 'This is a tooltip for this monitor',
+   //     tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
       timeout: 5000,
@@ -87,7 +79,7 @@ const workerConfig: WorkerConfig = {
       name: 'File',
       method: 'TCP_PING',
       target: '168.138.201.51:22103',
-        tooltip: 'This is a tooltip for this monitor',
+   //     tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
       timeout: 5000,
