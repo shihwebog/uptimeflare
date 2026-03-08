@@ -23,7 +23,7 @@ const workerConfig: WorkerConfig = {
       // statusPageLink: 'https://blog.stoh.cc',
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 10000,
+      timeout: 4500,
       // [OPTIONAL] headers to be sent
       },
 
@@ -37,7 +37,7 @@ const workerConfig: WorkerConfig = {
      // statusPageLink: 'https://social.stoh.cc',
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 10000,
+      timeout: 4500,
       // [OPTIONAL] headers to be sent
       },
 
@@ -49,7 +49,7 @@ const workerConfig: WorkerConfig = {
   //    tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
-      timeout: 5000,
+      timeout: 3000,
     },
 
     {
@@ -60,7 +60,7 @@ const workerConfig: WorkerConfig = {
     //    tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
  // statusPageLink: 'https://example.com',
-      timeout: 5000,
+      timeout: 3000,
     },
    
     {
@@ -71,7 +71,7 @@ const workerConfig: WorkerConfig = {
    //     tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
-      timeout: 5000,
+      timeout: 3000,
     },
 
     {
@@ -82,7 +82,7 @@ const workerConfig: WorkerConfig = {
    //     tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
-      timeout: 5000,
+      timeout: 3000,
     },
     
   ],
