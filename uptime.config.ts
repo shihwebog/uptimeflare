@@ -14,7 +14,7 @@ const pageConfig: PageConfig = {
 const workerConfig: WorkerConfig = {
   monitors: [
     {
-      id: 'Web',
+      id: 'Blog',
       name: 'Blog',
       method: 'GET',
       target: 'https://blog.stoh.cc',
@@ -28,7 +28,7 @@ const workerConfig: WorkerConfig = {
       },
 
     {
-      id: 'Web',
+      id: 'Social',
       name: 'Social',
       method: 'GET',
       target: 'https://social.stoh.cc',
@@ -42,7 +42,7 @@ const workerConfig: WorkerConfig = {
       },
 
     {
-      id: 'VPS',
+      id: 'Main',
       name: 'Main',
       method: 'TCP_PING',
       target: '137.175.126.187:22103',
@@ -53,7 +53,7 @@ const workerConfig: WorkerConfig = {
     },
 
     {
-      id: 'VPS',
+      id: 'Website',
       name: 'Website',
       method: 'TCP_PING',
       target: '72.11.140.72:22103',
@@ -64,7 +64,7 @@ const workerConfig: WorkerConfig = {
     },
    
     {
-      id: 'VPS',
+      id: 'Vmess',
       name: 'Vmess',
       method: 'TCP_PING',
       target: '131.186.32.166:22103',
@@ -75,7 +75,7 @@ const workerConfig: WorkerConfig = {
     },
 
     {
-      id: 'VPS',
+      id: 'File',
       name: 'File',
       method: 'TCP_PING',
       target: '168.138.201.51:22103',
