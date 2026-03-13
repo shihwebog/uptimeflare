@@ -14,10 +14,10 @@ const pageConfig: PageConfig = {
 const workerConfig: WorkerConfig = {
   monitors: [
     {
-      id: 'Blog',
-      name: 'Blog',
+      id: 'Web',
+      name: 'Web',
       method: 'GET',
-      target: 'https://blog.stoh.cc',
+      target: 'https://www.stoh.cc',
       //  tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       // statusPageLink: 'https://blog.stoh.cc',
