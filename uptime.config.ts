@@ -23,7 +23,7 @@ const workerConfig: WorkerConfig = {
       // statusPageLink: 'https://blog.stoh.cc',
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 4500,
+      timeout: 5000,
       // [OPTIONAL] headers to be sent
       },
 
@@ -37,7 +37,7 @@ const workerConfig: WorkerConfig = {
      // statusPageLink: 'https://social.stoh.cc',
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 4500,
+      timeout: 5000,
       // [OPTIONAL] headers to be sent
       },
 
@@ -45,44 +45,44 @@ const workerConfig: WorkerConfig = {
       id: 'Main',
       name: 'Main',
       method: 'TCP_PING',
-      target: '137.175.126.187:22103',
+      target: '137.175.126.187:80',
   //    tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
-      timeout: 3000,
+      timeout: 5000,
     },
 
     {
       id: 'Website',
       name: 'Website',
       method: 'TCP_PING',
-      target: '72.11.140.72:22103',
+      target: '72.11.140.72:80',
     //    tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
  // statusPageLink: 'https://example.com',
-      timeout: 3000,
+      timeout: 5000,
     },
    
     {
       id: 'Vmess',
       name: 'Vmess',
       method: 'TCP_PING',
-      target: '131.186.32.166:22103',
+      target: '131.186.32.166:80',
    //     tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
-      timeout: 3000,
+      timeout: 5000,
     },
 
     {
       id: 'File',
       name: 'File',
       method: 'TCP_PING',
-      target: '168.138.201.51:22103',
+      target: '168.138.201.51:80',
    //     tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   // statusPageLink: 'https://example.com',
-      timeout: 3000,
+      timeout: 5000,
     },
     
   ],
