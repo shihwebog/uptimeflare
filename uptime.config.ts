@@ -2,10 +2,10 @@ import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
   // Title for your status page
-  title: "SHI 記 UpTime Status Page",
+  title: "SHI 記 Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://blog.stoh.cc', label: 'Blog' },
+    { link: 'https://www.stoh.cc', label: 'Website' },
     { link: 'https://social.stoh.cc', label: 'Social' },
     { link: 'mailto:shh[at]stoh.cc', label: 'Email Me', highlight: true },
   ],
@@ -31,7 +31,7 @@ const workerConfig: WorkerConfig = {
       id: 'Social',
       name: 'Social',
       method: 'GET',
-      target: 'https://social.stoh.cc',
+      target: 'https://blog.stoh.cc',
      // tooltip: 'This is a tooltip for this monitor',
      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
      // statusPageLink: 'https://social.stoh.cc',
